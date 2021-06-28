@@ -1,0 +1,53 @@
+pre{
+    clear: both;
+    color: #fff;
+    background: #1b1b1b;
+    padding: 0;
+    -moz-tab-size: 2;
+    -o-tab-size: 2;
+    tab-size: 2;
+    -ms-word-break: normal;
+    word-break: normal;
+    -webkit-hyphens: none;
+    -ms-hyphens: none;
+    hyphens: none;
+    position: relative;
+    line-height: 28px;
+    border-radius: 8px;
+    min-width: 100px;
+    width: -webkit-max-content;
+    width: -moz-max-content;
+    width: max-content;
+    max-width: 100%;
+    overflow: hidden;
+}
+
+pre code {
+    scrollbar-color: #666 #201c29;
+    background: 0 0;
+    white-space: pre;
+    -webkit-overflow-scrolling: touch;
+    overflow: scroll;
+    display: block;
+    max-width: 100%;
+    min-width: 100px;
+    max-height: 100%;
+    height: 400px;
+    font-size: 16px;
+    padding: 15px 20px 12px 22px;
+    line-height: 1.75;
+}
+
+#download-btn{
+    height: 100px;
+    width: 98vw;
+    background: #ec5858;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+    text-transform: capitalize;
+    font-size: 35px;
+    font-weight: 800;
+}
